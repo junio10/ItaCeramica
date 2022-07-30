@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*botoes verdes*/
-    color: #dadada;
+    
 }
 body{
     margin: 0;
@@ -20,12 +20,14 @@ body{
     font-size: 25px;
     width: 100%;
     height: 80px;
+    border-bottom: #2f6627;
 }
 .cabecalho a:hover{
     filter: contrast(80%);
 }
-a{
+.cabecalho a{
     text-decoration: none;
+    color: #ffffff;
 }
 .logo-itaceramica{
     width: 25%;
