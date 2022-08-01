@@ -14,6 +14,7 @@
    /* body{
         background-color: #dadada;
     }*/
+    /*parte do produtos e categoria*/
     .flex-main{
         display: flex;
         flex-direction:  row;
@@ -25,6 +26,12 @@
    
     .categoria{
         padding-right: 40px;
+    }
+    .categoria h3{
+        background-color: #204969;
+        color: #ffffff;
+        border: solid 1px #204969;
+        border-radius: 30px;
     }
     .categoria a{
         color: #08ffc8;
@@ -48,7 +55,68 @@
     .produto a:hover{
         color: black;
     }
+    /*parte do formulario*/
+    .flex-form{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #204969;
+        color: #ffffff;
+    }
+  
+    #formulario input{
+        background-color: transparent;
+        border: inherit;
+        border-bottom: solid 1px #ffffff;
+        margin-bottom: 10px;
+        width: 90%;
+        transition: ease-in all 0.5s;
+        color: #ffffff;
+    }
+    .fundo-img{
+        background-image: url(/imagens/pexels-max-vakhtbovych-7534568\ \(1\).jpg);
 
+    }
+    #formulario form{
+        margin-left: 130px;
+        padding-left: 30%;
+        width: 60%;
+        font-size: 18px;
+    }
+    #formulario h3{
+        text-align: center;
+    }
+    #formulario textarea{
+        background-color: transparent;
+        border: inherit;
+        border-bottom: solid 2px #ffffff;
+        transition: ease-in all 0.5s;
+        color: #fff;
+    }
+    #formulario ::placeholder{
+        color: #ffffff;
+    }
+    #formulario button{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        margin-left: 35%;
+        font-size: 17px;
+        border: solid 3px #08ffc8;
+        background: transparent;
+        color: #ffffff;
+        transition: ease-in all 0.5s;
+        border-radius: 30px;
+    }
+    #formulario button:hover{
+        background-color: #08ffc8;
+        transition: ease-in all 0.5s;
+        color: #ffffff;
+    }
+    /*parte do footer*/
+    .flex-footer{
+        display: flex;
+        flex-direction: row;
+    }
 
 
 
@@ -78,7 +146,7 @@
 
     <div class="flex-main">
     <aside class="categoria">
-        <h3>Categoria</h3>
+        <h3>CATEGORIA</h3>
         <ul>
             <li><a href="">Azulejo</a></li>
             <li><a href="">Materiais de construção</a></li>
@@ -92,7 +160,7 @@
     <!--produtos-->
     <div class="flex-produtos">  
         <!--aqui vao se colocados os produtos-->
-        <h3>Produtos</h3>
+        <h3>PRODUTOS</h3>
         <table>
             <tr>
                 <td>        
@@ -168,40 +236,48 @@
         </table>
     </div>
 </div>
-
+<div class="flex-form">
    <!--formulario-->
     <div id="formulario">
+        <h3>Contate nos</h3>
+        <p>Tem alguma sugestão para melhorar o antedimento, coloque suas informações e a sua sugestão. Garantimos que suas informações estão seguras.</p>
         <form action="mailto: junio.js977@gmail.com" method="POST" enctype="text/plain">
-            <h2>Contate nos</h2>
-            <h3>Tem alguma sugestão para melhorar o antedimento, coloque suas informações e a sua sugestão. Garantimos que suas informações estão seguras.</h3>
-            <label for="fname">Nome</label><br>
-            <input type="text" name="fname" id=""><br>
-            <label for="femail">E-mail</label><br>
-            <input type="email" name="femail" id=""><br>
-            <label for="ffone">Telefone</label><br>
-            <input type="number" name="ffone" id=""><br>
+            
+            <input type="text" name="fname" id="" placeholder="Nome"><br>
+           
+            <input type="email" name="femail" id="" placeholder="E-mail"><br>
+           
+            <input type="text" name="ffone" id="" placeholder="Telefone"><br>
             <p><small>*o telefone não é obrigatório</small></p>
-            <label for="fsugestao">Sugestão</label><br>
-            <textarea name="fsugestao" id="" cols="30" rows="10"></textarea><br>
+           
+            <textarea name="fsugestao" id="" cols="38" rows="3" placeholder="Sugestão..."></textarea><br>
             <button type="submit">Enviar</button>
         </form>
     </div>
-
+</div>
+<div class="flex-footer">
     <footer>
         <div id="follow-redes">
             <!--redes sociais-->
-            <a href="#"><img src="/imagens/instagram.svg" alt="instagram">@ItaCeramica</a>
-            <a href="#"><img src="/imagens/facebook (1).svg" alt="">Itaceramica</a>
+            <p>Siga</p>
+            <a href="#"><img src="/imagens/instagram (1).svg" alt="instagram">@ItaCeramica</a>
+            <a href="#"><img src="/imagens/facebook (1).svg" alt="facebook">Itaceramica</a>
         </div>
         <div id="contatos">
             <!--endereço, telefone, e-mail-->
+            <p>Entre em contato</p>
             <a href="#"><img src="/imagens/phone.svg" alt="telefone">9999-9999</a>
-            <a href="#"><img src="/imagens/map-pin (1).svg" alt="">Rua: Pedro garcia moreno</a>
-            <a href="#"><img src="/imagens/mail (1).svg" alt="">ItaCeramica@gmail.com</a>
+            <a href="#"><img src="/imagens/map-pin.svg" alt="localizacao">Rua: Pedro garcia moreno</a>
+            <a href="#"><img src="/imagens/mail.svg" alt="email">ItaCeramica@gmail.com</a>
         </div>
-        <div id="copyright">
-             <p>copyright @2022 direitos reservados</p>
+        <div id="sobre">
+        <h3>Sobre a nós</h3>
+        <p>Somos uma empresa especializada em ceramica, atuamos no mercado desde 2000, com os produtos da mais alta qualidade</p>
         </div>
     </footer>
+</div>
+<div id="copyright">
+    <p>copyright @2022 direitos reservados</p>
+</div>
 </body>
 </html>
