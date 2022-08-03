@@ -85,6 +85,7 @@
     }
     #formulario h3{
         text-align: center;
+        color: #08ffc8;
     }
     #formulario textarea{
         background-color: transparent;
@@ -116,9 +117,42 @@
     .flex-footer{
         display: flex;
         flex-direction: row;
+        align-items: baseline;
+        justify-content: space-around;
+        background-color: #204969;
+        border-top: solid 2px #ffffff;
+        color: #ffffff;
+        padding-top: 50px; 
     }
-
-
+    .flex-footer a{
+        text-decoration: none;
+        color: #dadada;
+     
+    }
+    .flex-footer h3{
+        color: #08ffc8;
+    }/*
+    .flex-footer p{
+        color: #dadada;
+    }*/
+     .flex-footer div{
+        padding-right: 40px;
+        width: 300px;
+        
+     }
+    .flex-footer ul{
+        display: inline-block;
+        list-style: none;
+        padding-left: 0;
+        
+    }
+    .flex-footer li{
+        padding-bottom: 10px;
+    }
+    .flex-footer img{
+        padding-right: 5px;
+    }
+   
 
 </style>
 <body>
@@ -256,25 +290,31 @@
     </div>
 </div>
 <div class="flex-footer">
-    <footer>
+   
         <div id="follow-redes">
             <!--redes sociais-->
-            <p>Siga</p>
-            <a href="#"><img src="/imagens/instagram (1).svg" alt="instagram">@ItaCeramica</a>
-            <a href="#"><img src="/imagens/facebook (1).svg" alt="facebook">Itaceramica</a>
+            <h3>Siga
+
+            </h3>
+            <ul>
+            <li><a href="#"><img src="/imagens/instagram (1).svg" alt="instagram">@ItaCeramica</a></li>
+            <li><a href="#"><img src="/imagens/facebook (1).svg" alt="facebook">Itaceramica</a></li>
+            </ul>
         </div>
         <div id="contatos">
             <!--endereço, telefone, e-mail-->
-            <p>Entre em contato</p>
-            <a href="#"><img src="/imagens/phone.svg" alt="telefone">9999-9999</a>
-            <a href="#"><img src="/imagens/map-pin.svg" alt="localizacao">Rua: Pedro garcia moreno</a>
-            <a href="#"><img src="/imagens/mail.svg" alt="email">ItaCeramica@gmail.com</a>
+            <h3>Entre em contato</h3>
+            <ul>
+            <li><a href="#"><img src="/imagens/phone.svg" alt="telefone">9999-9999</a></li>
+            <li><a href="#"><img src="/imagens/map-pin.svg" alt="localizacao">Rua: Pedro garcia moreno</a></li>
+            <li><a href="#"><img src="/imagens/mail.svg" alt="email">ItaCeramica@gmail.com</a></li>
+            </ul>
         </div>
         <div id="sobre">
         <h3>Sobre a nós</h3>
         <p>Somos uma empresa especializada em ceramica, atuamos no mercado desde 2000, com os produtos da mais alta qualidade</p>
         </div>
-    </footer>
+   
 </div>
 <div id="copyright">
     <p>copyright @2022 direitos reservados</p>
