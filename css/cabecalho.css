@@ -4,6 +4,16 @@
     /*botoes verdes*/
     
 }
+@media only screen and (max-width: 600px) {
+    .flex-header{
+        width: 45%;
+    }
+    ul{
+        display: none;
+    }
+
+}
+
 body{
     margin: 0;
 }
