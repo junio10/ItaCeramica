@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Itaceramica</title>
     <link rel="stylesheet" href="/css/cabecalho.css">
+    <link rel="stylesheet" href="/css/formulario.css">
+    <link rel="stylesheet" href="/css/footer.css">
 </head>
 <body>
     <header class="cabecalho flex-header">
@@ -76,22 +78,59 @@
            </div>
     </div>
 
-    <footer>
-        <div id="follow-redes">
-            <!--redes sociais-->
-            <a href="#"><img src="/imagens/instagram.svg" alt="instagram">@ItaCeramica</a>
-            <a href="#"><img src="/imagens/facebook (1).svg" alt="">Itaceramica</a>
-        </div>
-        <div id="contatos">
-            <!--endereço, telefone, e-mail-->
-            <a href="#"><img src="/imagens/phone.svg" alt="telefone">9999-9999</a>
-            <a href="#"><img src="/imagens/map-pin (1).svg" alt="">Rua: Pedro garcia moreno</a>
-            <a href="#"><img src="/imagens/mail (1).svg" alt="">ItaCeramica@gmail.com</a>
-        </div>
-        <div id="copyright">
-             <p>copyright @2022 direitos reservados</p>
-        </div>
-    </footer>
+    <div class="flex-form">
+        <!--formulario-->
+         <div id="formulario">
+             <h3>Contate nos</h3>
+             <p>Tem alguma sugestão para melhorar o antedimento, coloque suas informações e a sua sugestão. Garantimos que suas informações estão seguras.</p>
+             <form action="mailto: junio.js977@gmail.com" method="POST" enctype="text/plain">
+                 
+                 <input type="text" name="fname" id="" placeholder="Nome"><br>
+                
+                 <input type="email" name="femail" id="" placeholder="E-mail"><br>
+                
+                 <input type="text" name="ffone" id="" placeholder="Telefone"><br>
+                 <p><small>*o telefone não é obrigatório</small></p>
+                
+                 <textarea name="fsugestao" id="" cols="38" rows="3" placeholder="Sugestão..."></textarea><br>
+                 <button type="submit">Enviar</button>
+             </form>
+         </div>
+     </div>
+     
+     <footer>
+     <div class="flex-footer">
+        
+             <div id="follow-redes">
+                 <!--redes sociais-->
+                 <h3>Siga
+                 </h3>
+                 <ul>
+                 <li><a href="#"><img src="/imagens/instagram (1).svg" alt="instagram">@ItaCeramica</a></li>
+                 <li><a href="#"><img src="/imagens/facebook (1).svg" alt="facebook">Itaceramica</a></li>
+                 </ul>
+             </div>
+             <div id="contatos">
+                 <!--endereço, telefone, e-mail-->
+                 <h3>Entre em contato</h3>
+                 <ul>
+                 <li><a href="#"><img src="/imagens/phone.svg" alt="telefone">9999-9999</a></li>
+                 <li><a href="#"><img src="/imagens/map-pin.svg" alt="localizacao">Rua: Pedro garcia moreno</a></li>
+                 <li><a href="#"><img src="/imagens/mail.svg" alt="email">ItaCeramica@gmail.com</a></li>
+                 </ul>
+             </div>
+             <div id="sobre">
+             <h3>Sobre nós</h3>
+             <p>Somos uma empresa especializada em ceramica, atuamos no mercado desde 2000, com os produtos da mais alta qualidade</p>
+             </div>
+        
+     </div>
+     
+          <div id="copyright">
+          <li>copyright @2022 direitos reservados</li>
+          </div>
+     
+     </footer>
     
 </body>
 </html>

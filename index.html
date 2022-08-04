@@ -6,154 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ItaCeramica</title>
     <link rel="stylesheet" href="/css/cabecalho.css">
+    <link rel="stylesheet" href="/css/produtos.css">
+    <link rel="stylesheet" href="/css/formulario.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <!--colocar o icon pelo
     <link rel ="icon" href = "pasta/icon.svg">
     -->
 </head>
 <style>
-   /* body{
-        background-color: #dadada;
-    }*/
-    /*parte do produtos e categoria*/
-    .flex-main{
-        display: flex;
-        flex-direction:  row;
-        width: 1000px;
-        align-items: baseline;
-        justify-content: space-between;
-        margin: 10px 20px;
-    }
-   
-    .categoria{
-        padding-right: 40px;
-    }
-    .categoria h3{
-        background-color: #204969;
-        color: #ffffff;
-        border: solid 1px #204969;
-        border-radius: 30px;
-    }
-    .categoria a{
-        color: #08ffc8;
-    }
-    .flex-main a{
-        text-decoration: none;
-        
-    }
-    .flex-produtos a{
-       color: #08ffc8;
-    }
-   
-    td{
-        padding-right: 40px;
-        padding-left:  40px;
-       
-    }
-    .produto{
-     text-align: center;
-    }
-    .produto a:hover{
-        color: black;
-    }
-    /*parte do formulario*/
-    .flex-form{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #204969;
-        color: #ffffff;
-    }
   
-    #formulario input{
-        background-color: transparent;
-        border: inherit;
-        border-bottom: solid 1px #ffffff;
-        margin-bottom: 10px;
-        width: 90%;
-        transition: ease-in all 0.5s;
-        color: #ffffff;
-    }
-    .fundo-img{
-        background-image: url(/imagens/pexels-max-vakhtbovych-7534568\ \(1\).jpg);
-
-    }
-    #formulario form{
-        margin-left: 130px;
-        padding-left: 30%;
-        width: 60%;
-        font-size: 18px;
-    }
-    #formulario h3{
-        text-align: center;
-        color: #08ffc8;
-    }
-    #formulario textarea{
-        background-color: transparent;
-        border: inherit;
-        border-bottom: solid 2px #ffffff;
-        transition: ease-in all 0.5s;
-        color: #fff;
-    }
-    #formulario ::placeholder{
-        color: #ffffff;
-    }
-    #formulario button{
-        margin-top: 10px;
-        margin-bottom: 30px;
-        margin-left: 35%;
-        font-size: 17px;
-        border: solid 3px #08ffc8;
-        background: transparent;
-        color: #ffffff;
-        transition: ease-in all 0.5s;
-        border-radius: 30px;
-    }
-    #formulario button:hover{
-        background-color: #08ffc8;
-        transition: ease-in all 0.5s;
-        color: #ffffff;
-    }
-    /*parte do footer*/
-    .flex-footer{
-        display: flex;
-        flex-direction: row;
-        align-items: baseline;
-        justify-content: space-around;
-        background-color: #204969;
-        border-top: solid 2px #ffffff;
-        color: #ffffff;
-        padding-top: 50px; 
-    }
-    .flex-footer a{
-        text-decoration: none;
-        color: #dadada;
-     
-    }
-    .flex-footer h3{
-        color: #08ffc8;
-    }/*
-    .flex-footer p{
-        color: #dadada;
-    }*/
-     .flex-footer div{
-        padding-right: 40px;
-        width: 300px;
-        
-     }
-    .flex-footer ul{
-        display: inline-block;
-        list-style: none;
-        padding-left: 0;
-        
-    }
-    .flex-footer li{
-        padding-bottom: 10px;
-    }
-    .flex-footer img{
-        padding-right: 5px;
-    }
-   
-
 </style>
 <body>
     <header class="cabecalho flex-header">
@@ -180,8 +41,8 @@
 
     <div class="flex-main">
     <aside class="categoria">
-        <h3>CATEGORIA</h3>
         <ul>
+            <h3>CATEGORIA</h3>
             <li><a href="">Azulejo</a></li>
             <li><a href="">Materiais de construção</a></li>
             <li><a href="">Vasos</a></li>
@@ -289,12 +150,13 @@
         </form>
     </div>
 </div>
+
+<footer>
 <div class="flex-footer">
    
         <div id="follow-redes">
             <!--redes sociais-->
             <h3>Siga
-
             </h3>
             <ul>
             <li><a href="#"><img src="/imagens/instagram (1).svg" alt="instagram">@ItaCeramica</a></li>
@@ -311,13 +173,16 @@
             </ul>
         </div>
         <div id="sobre">
-        <h3>Sobre a nós</h3>
+        <h3>Sobre nós</h3>
         <p>Somos uma empresa especializada em ceramica, atuamos no mercado desde 2000, com os produtos da mais alta qualidade</p>
         </div>
    
 </div>
-<div id="copyright">
-    <p>copyright @2022 direitos reservados</p>
-</div>
+
+     <div id="copyright">
+     <li>copyright @2022 direitos reservados</li>
+     </div>
+
+</footer>
 </body>
 </html>
