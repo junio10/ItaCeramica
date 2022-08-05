@@ -1,0 +1,42 @@
+#produto1{
+    padding-left: 40px;
+}
+.formcomprar button{
+    margin-top: 10px;
+    font-size: 17px;
+    border: solid 3px #08ffc8;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #08ffc8;
+}
+.btn-comprar:hover{
+    filter: brightness(120%);
+}
+
+.formcomprar input{
+    margin-top: 10px;
+    width: 15%;
+
+}
+#produto1 li{
+    list-style: none;
+}
+.flex-relacionados{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.flex-relacionados div{
+    padding-right: 40px;
+}
+
+.flex-relacionados a{
+text-decoration: none;
+}
+.flex-relacionados a{
+color: #08ffc8;
+text-align: center;
+}
+.flex-relacionados a:hover{
+color: black;
+}
