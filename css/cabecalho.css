@@ -15,14 +15,43 @@
         display: none!important;
         
     }
-    .flex-header{
-        width: 80%;
+    header{
+        width: 100%;
     }
     .menu-toogle{
         display: block;
         font-size: 17px;
     }
+    .barradeprocura{
+        margin-left: 100px;
+    }
      
+}
+@media only screen and (max-width:750px){
+    .barradeprocura{
+        margin-left: 20px;
+    }
+    
+
+}
+@media only screen and (max-width:666px){
+    .barradeprocura{
+        margin-left: 20px;
+     
+    }
+    .barradeprocura input{
+        width: 150px;
+    }
+    .barradeprocura button{
+        font-size: 8px;
+    }
+    .logo-itaceramica{
+        margin-left: 0px;
+        font-size: 20px;
+        padding-top: 7px;
+    }
+    
+
 }
 
 body{
