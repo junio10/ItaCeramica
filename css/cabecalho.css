@@ -8,10 +8,21 @@
     .flex-header{
         width: 45%;
     }
-    ul{
-        display: none;
-    }
 
+}
+@media only screen and (max-width:1029px){
+     .flex-header > .menu{
+        display: none!important;
+        
+    }
+    .flex-header{
+        width: 80%;
+    }
+    .menu-toogle{
+        display: block;
+        font-size: 17px;
+    }
+     
 }
 
 body{
@@ -31,7 +42,7 @@ body{
     border-bottom: 5px solid #08ffc8;
 }
 .cabecalho a:hover{
-    filter: contrast(80%);
+    filter: contrast(80%)!important;
 }
 .cabecalho a{
     text-decoration: none;
@@ -45,6 +56,9 @@ body{
    width: 25%;
    padding-top: 2px;
 }*/
+.menu-toogle{
+    display: none;
+}
 .menu{
     padding-top: 17px;
     font-size: 20px;

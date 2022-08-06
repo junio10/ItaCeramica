@@ -25,9 +25,12 @@
     width: 60%;
     font-size: 18px;
 }
-#formulario h3{
+#formulario  h3{
     text-align: center;
     color: #08ffc8;
+}
+#formulario > p{
+    margin-left: 10px;
 }
 #formulario textarea{
     background-color: transparent;

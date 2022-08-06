@@ -21,6 +21,9 @@
 #produto1 li{
     list-style: none;
 }
+.relproduto{
+    margin-left: 40px;
+}
 .flex-relacionados{
     display: flex;
     flex-direction: row;
@@ -39,4 +42,11 @@ text-align: center;
 }
 .flex-relacionados a:hover{
 color: black;
+}
+
+@media only screen and (max-width: 600px){
+    .flex-relacionados{
+        flex-direction: column;
+    }
+   
 }
