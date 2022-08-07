@@ -1,6 +1,10 @@
 #produto1{
     padding-left: 40px;
 }
+.formcomprar{
+    padding-top: 10px;
+}
+
 .formcomprar button{
     margin-top: 10px;
     font-size: 17px;
