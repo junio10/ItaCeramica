@@ -2,7 +2,7 @@
     /*flex-wrap: wrap;*/
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    /*width: 1000px;/*o problema da barra de rolagem esta nessa linha*/
     align-items: baseline;
     margin: 10px 20px;
 }
@@ -11,7 +11,7 @@
     .flex-produtos{
         flex-direction: column !important;
     }
-      
+   
     .flex-row1{
         flex-direction: column !important;
         margin-left: 200px;
@@ -35,21 +35,27 @@
         margin-left: 250px!important;  
     }
     hr{
-        width: 93%!important;
+        width: 96%!important;
         margin-left: 20px;
     }
 }
 
 @media only screen and (max-width:980px){
     hr{
-       width: 93%!important;
+       width: 96%!important;
     }
 }
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width:781px){
     hr{
-       width: 81%!important;
+       width: 97%!important;
     }
+    .flex-main > ul{
+        margin-left: 55px!important;  
+    }.flex-main > ul > li{
+        padding-right: 30px;
+    }
+    
 }
 
 
@@ -76,6 +82,9 @@
     .flex-main ul{
         margin-left: 140px!important;  
     }
+    hr{
+        width: 95%!important;
+     }
 }
 @media only screen and (max-width:750px){
     .flex-row1{
@@ -101,8 +110,13 @@
         margin-left: 55px!important;  
     }
     hr{
-        width: 65%!important;
+        width: 95%!important;
      }
+}
+@media only screen and (max-width:656px){
+    .flex-main > ul > li{
+        padding-right: 15px;
+    }
 }
 @media only screen and (max-width:610px){
     .flex-row1{
@@ -132,7 +146,7 @@
     }
     hr{
         margin-left: 0px;
-        width: 54%!important;
+        width: 97%!important;
      }
 }
 /*parte reponsiva*/
@@ -221,7 +235,7 @@ aside a:hover{
 }
 hr{
     background-color: #204969;
-    width: 115%;
+    width: 97%;
     margin-left: 20px;
 }
 /*
