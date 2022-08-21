@@ -192,7 +192,7 @@
     height: 40px;
 }*/
 .categoria a{
-    color: #08ffc8;
+    color: black;
 }
 .flex-main a{
     text-decoration: none;
@@ -215,13 +215,14 @@
     margin-left: 550px;
     border-bottom: solid 3px #08ffc8;
 }
-.flex-main ul{
+/*.flex-main ul{
     margin-left: 340px;
 }
 /*
 aside a:hover{
     color: black;
 }*/
+/*
 .flex-main li{
     display: inline;
     padding-right: 40px;
@@ -232,6 +233,9 @@ aside a:hover{
 }
 .flex-main > ul a{
     color: black; 
+}*/
+.categoria a:hover{
+    color: #08ffc8;
 }
 hr{
     background-color: #204969;

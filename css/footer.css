@@ -34,7 +34,15 @@
         width: 100%;
     }
 }
-
+@media only screen and (max-width:530px){
+    footer{
+        width: 100%;
+    }
+    .flex-footer{
+        flex-direction: column;
+        
+     }
+}
 
 .flex-footer a{
     text-decoration: none;
